@@ -13,6 +13,7 @@ app.use(
 		//origin: process.env.CLIENT_URL
 	})
 );
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/public')); // folder to upload files
